@@ -12,12 +12,12 @@
 // - A new deploy's worker waits until the page asks it to take over (the "new version" notice in
 //   index.html) or every RustGIS window has closed, so the app never changes under the user.
 
-const VERSION = "87dac55eb092ed30";
+const VERSION = "8f56ed5b0fb3bb6d";
 const SHELL = [
   "index.html",
   "manifest.webmanifest",
-  "rustgis-web-5b712d6fce9f2dac.js",
-  "rustgis-web-5b712d6fce9f2dac_bg.wasm",
+  "rustgis-web-d084a9e2c43d928d.js",
+  "rustgis-web-d084a9e2c43d928d_bg.wasm",
   "snippets/rustgis-web-78b73f8c13a26ca9/inline0.js",
 ];
 // The icons and the loading logo, served from rustgis-assets: cached when reachable, but never
