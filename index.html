@@ -16,8 +16,8 @@
   <meta name="apple-mobile-web-app-title" content="KiemlamGIS">
   
 <script type="module">
-import init, * as bindings from './rustgis-web-d084a9e2c43d928d.js';
-const wasm = await init({ module_or_path: './rustgis-web-d084a9e2c43d928d_bg.wasm' });
+import init, * as bindings from './rustgis-web-44fae4400e56ce1a.js';
+const wasm = await init({ module_or_path: './rustgis-web-44fae4400e56ce1a_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -43,7 +43,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
     #rustgis_update button { font: inherit; padding: 4px 12px; border: 0; border-radius: 6px; background: #2e7d32; color: #fff; cursor: pointer; }
     #rustgis_update button.dismiss { background: transparent; color: #aab2bf; padding: 4px 6px; }
   </style>
-<link rel="modulepreload" href="./rustgis-web-d084a9e2c43d928d.js" crossorigin="anonymous" integrity="sha384-wfUE/mAbApM6d6XeoBNurp08PA+fI+uFi3ebJyiUniITH3FDv7Vhahie2Hqzsi7O"><link rel="modulepreload" href="./snippets/rustgis-web-78b73f8c13a26ca9/inline0.js" crossorigin="anonymous" integrity="sha384-ClvjitsGyS7HsPRTgjtwRqaWUwYqYBFMOjcxv2VAMOKH8JlMMiFXUMZWcqautnNv"><link rel="preload" href="./rustgis-web-d084a9e2c43d928d_bg.wasm" crossorigin="anonymous" integrity="sha384-yxBOJgDqZcOB9DUIIonU0VyeMUY2PWqhJ8RmOeN0EBiJryTiNux2LgpYNRUeIZY4" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="./rustgis-web-44fae4400e56ce1a.js" crossorigin="anonymous" integrity="sha384-wfUE/mAbApM6d6XeoBNurp08PA+fI+uFi3ebJyiUniITH3FDv7Vhahie2Hqzsi7O"><link rel="modulepreload" href="./snippets/rustgis-web-78b73f8c13a26ca9/inline0.js" crossorigin="anonymous" integrity="sha384-ClvjitsGyS7HsPRTgjtwRqaWUwYqYBFMOjcxv2VAMOKH8JlMMiFXUMZWcqautnNv"><link rel="preload" href="./rustgis-web-44fae4400e56ce1a_bg.wasm" crossorigin="anonymous" integrity="sha384-+4iG3XK3w4oJRez9qSRH9exTscUVasiGYSXcX6jHFMqr/kEpqSTlLNjgCofJin/W" as="fetch" type="application/wasm"></head>
 <body>
   <canvas id="rustgis_canvas"></canvas>
   <div id="rustgis_loading"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Emblem_of_Vietnam_Forest_Ranger.svg/512px-Emblem_of_Vietnam_Forest_Ranger.svg.png" alt="Kiểm lâm"><div>Đang tải KiemlamGIS&hellip;</div></div>
